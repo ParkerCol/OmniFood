@@ -44,6 +44,10 @@
   box-sizing: border-box;
 }
 
+strong {
+  font-weight: 500;
+}
+
 html {
   /* 10px/16px = 0.625 = 62.5% = 1 rem = 10 px */
   font-size: 62.5%;
@@ -109,6 +113,10 @@ body {
 
 .grid-2 {
   grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .btn:link,
